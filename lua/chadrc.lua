@@ -8,7 +8,8 @@ local theme = require "themes.bocci"
 M.ui = {
     transparency = true,
     statusline = {
-        theme = "vscode_colored",
+        theme = "default",
+        separator_style = "round",
     },
     changed_themes = theme,
 
